@@ -14,9 +14,6 @@ This repository holds an implementation of a directed graph structure in Java. T
 degree(V v) - returns the degree of vertex v
 toString() - returns a string representation of the graph
 
-# How to use
-Update the code in the main class to use the directed graph structure. First start by initializing a new graph and adding vertices using the addVertex method. The current driver class then adds edges between a few vertices and prints out the adjacency list of each vertex to ensure correctness.
-
 # Credits
 My professor, America Chambers, wrote the Graph interface and gave it to me as starter code for this assignment. This was also a pair programming assignment in which I worked with my classmate, Gennie Cheatham.
 
