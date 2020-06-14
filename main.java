@@ -58,15 +58,7 @@ public class main {
         }catch(InputMismatchException e) {
             throw new InputMismatchException();
         }
-        //        g.addVertex("a");
-//        g.addVertex("b");
-//        g.addVertex("c");
-//        g.addVertex("d");
-//        g.addEdge("a", "b");
-//        g.addEdge("a", "d");
-//        g.addEdge("c", "d");
-//        System.out.println((g.toString()));
     }
-    }
+}
 
 
