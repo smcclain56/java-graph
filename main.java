@@ -45,7 +45,7 @@ public class main {
                     System.out.println("Density of the graph: " + density);
                     V maxVertex = g.maxVertex();
                     int degreeValue = g.degree(maxVertex);
-                    System.out.println("Maximum degree: " + degreeValue + "(node " + maxVertex + ")");
+                    System.out.println("Maximum degree: " + degreeValue + " (node " + maxVertex + ")");
                 }else if(option.equals("4")) { //display minimum heap
                     System.out.println("Printing Directed Graph...");
                     System.out.println(g.toString());
