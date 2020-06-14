@@ -22,6 +22,98 @@ The text-based interface starts with an empty graph and allows the user to inter
 4. **Option 4:** Print out the graph. This option prints out the adjacency list that makes up the directed graph.
 5. **Option 5:** Quit. This option exits the program.
 
+# Example
+<pre>
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+1
+Enter the vertex to be added
+A
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+1
+Enter the vertex to be added
+B
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+1
+Enter the vertex to be added
+C
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+2
+Enter the starting vertex for the edge
+A
+Enter the ending vertex for the edge
+B
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+2
+Enter the starting vertex for the edge
+A
+Enter the ending vertex for the edge
+C
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+3
+Number of nodes: 3
+Number of edges: 2
+Density of the graph: 0.3333333333333333
+Maximum degree: 2 (node A)
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+4
+Printing Directed Graph...
+
+A: B, C
+B: 
+C: 
+========================= Welcome to Directed Graph ==========================
+[Option 1] Insert a new vertex into the graph
+[Option 2] Insert a new edge into the graph
+[Option 3] Show graph statistics
+[Option 4] Print out the graph
+[Option 5] Quit.
+Choose an option. (1-5)
+5
+Exiting... bye.
+</pre>
+
 # Credits
 My professor, America Chambers, wrote the Graph interface and gave it to me as starter code for this assignment. This was also a pair programming assignment in which I worked with my classmate, Gennie Cheatham.
 
