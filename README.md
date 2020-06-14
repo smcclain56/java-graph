@@ -14,11 +14,13 @@ This repository holds an implementation of a directed graph structure in Java. T
 degree(V v) - returns the degree of vertex v
 toString() - returns a string representation of the graph
 
-The text-based interface starts with an empty graph and allows the user to interact with the structure through a menu with the following three options:
+The text-based interface starts with an empty graph and allows the user to interact with the structure through a menu with the following five options:
 
 1. **Option 1:** Insert a new vertex into the graph. This option asks the user to enter the name of the vertex and adds it into the graph.
-2. **Option 2:** Insert a new edge. This option asks the user to enter the vertices they want the edge to start and end at 
-3. **Option 3:** Quit. This option exits the program.
+2. **Option 2:** Insert a new edge into the graph. This option asks the user to enter the vertices they want the edge to start and end at 
+3. **Option 3:** Show graph statistics. This options prints out the following graph statistics: number of vertices, number of edges, density, maximum degree (the vertex with the maximum degree).
+4. **Option 4:** Print out the graph. This option prints out the adjacency list that makes up the directed graph.
+5. **Option 5:** Quit. This option exits the program.
 
 # Credits
 My professor, America Chambers, wrote the Graph interface and gave it to me as starter code for this assignment. This was also a pair programming assignment in which I worked with my classmate, Gennie Cheatham.
